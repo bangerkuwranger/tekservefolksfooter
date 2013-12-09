@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Tekserve Footer Folk
  * Plugin URI: https://github.com/bangerkuwranger
- * Description: Custom shortcodes for interface elements and Visual Composer button mappings
+ * Description: Custom shortcode to create Tekserve's signature footer banner.
  * Version: 1.0
  * Author: Chad A. Carino
  * Author URI: http://www.chadacarino.com
