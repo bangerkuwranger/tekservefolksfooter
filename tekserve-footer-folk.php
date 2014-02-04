@@ -4,7 +4,7 @@
  * Plugin Name: Tekserve Footer Folk
  * Plugin URI: https://github.com/bangerkuwranger
  * Description: Custom shortcode to create Tekserve's signature footer banner.
- * Version: 1.0
+ * Version: 1.1
  * Author: Chad A. Carino
  * Author URI: http://www.chadacarino.com
  * License: MIT
@@ -22,9 +22,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /**  Shortcode for footer folk  **/
 function footer_folk($atts){
-$zagat = plugin_dir_url( __FILE__ ).'images/zagat.png';
-$foursquare = plugin_dir_url( __FILE__ ).'images/foursquare-logo.png';
-$folk = plugin_dir_url( __FILE__ ).'images/footer-folk-1.png';
+$zagat = plugin_dir_url( __FILE__ ).'images/logos/zagat.png';
+$foursquare = plugin_dir_url( __FILE__ ).'images/logos/foursquare-logo.png';
+$folk = plugin_dir_url( __FILE__ ).'rotate.php';
 return '<div class="footer-folk">
 <ul class="certificationlogos">
 <li>
@@ -64,6 +64,13 @@ return '<div class="footer-folk">
 ';
 }
 add_shortcode( 'footerfolk', 'footer_folk' );
+
+//template-tag for footer-folk inside visual composer
+function tekserve_footer_folk_vc() {
+	return "<div class='wpb_row vc_row-fluid flatBottom' style='margin-bottom: 0px;'>
+	<div class='vc_span12 wpb_column column_container' style='min-height: 0px;'>
+		<div class='wpb_wrapper' style='padding-bottom: 0px;'>".footer_folk()."</div></div></div>";
+}
 
 /**  Visual Composer button  **/
 if (function_exists('vc_map')) {
