@@ -33,11 +33,14 @@ return '<div class="footer-folk">
 <li id="yelp-biz-badge-rrc-T-yDGKZZA71nkGQoPQCCng">Tekserve
 </li>
 <li>
+<a href="http://www.zagat.com/s/tekserve-new-york">
 <img src="'.$zagat.'" />
+</a>
 </li>
 <li>
-<img src="'.$foursquare.'" class="foursquare" />
-<span style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; color: #fff; cursor: default; display: inline-block; font-size: 12px; font-weight: bold; padding: 5px 0; text-align: center; text-shadow: rgba(0, 0, 0, 0.1) 0 -1px 0; width: 30px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font-size: 17px; float: none; line-height: 32px; margin-right: 23px; padding: 0 10px 0 20px; width: 47px; background: #69bf13; position: relative; top: -15px;"><span itemprop="ratingValue">8.8</span><sup>/<span itemprop="bestRating">10</span></sup></span>
+<a href="https://foursquare.com/v/tekserve-new-york-ny/422f8e00f964a520f81f1fe3"><img src="'.$foursquare.'" class="foursquare" />
+<span style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; color: #fff; cursor: default; display: inline-block; font-size: 12px; font-weight: bold; padding: 5px 0; text-align: center; text-shadow: rgba(0, 0, 0, 0.1) 0 -1px 0; width: 30px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font-size: 17px; float: none; line-height: 32px; margin-right: 23px; padding: 0 10px 0 20px; width: 57px; background: #69bf13; position: relative; top: -15px;"><span itemprop="ratingValue">8.9</span><sup>/<span itemprop="bestRating">10</span></sup></span>
+</a>
 </li>
 </ul>
 <div class="footer-folk-image">
