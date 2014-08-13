@@ -21,7 +21,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 /**  Shortcode for footer folk  **/
-function footer_folk($atts){
+function footer_folk(){
 $zagat = plugin_dir_url( __FILE__ ).'images/logos/zagat.png';
 $foursquare = plugin_dir_url( __FILE__ ).'images/logos/foursquare-logo.png';
 $folk = plugin_dir_url( __FILE__ ).'rotate.php';
